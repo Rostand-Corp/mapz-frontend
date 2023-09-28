@@ -57,7 +57,7 @@ const Home: React.FC = () => {
   ))
 
   return (
-    <Container maxW="lg" className="h-screen py-5 flex flex-col items-center justify-center">
+    <Container maxW="lg" className="h-full py-5 flex flex-col items-center justify-center">
       <div className="p-5 rounded-lg shadow-md">
         <div className="w-full pb-5 flex flex-col gap-5">
           {mappedInputs}
